@@ -1,0 +1,30 @@
+table{
+    width: 50%;
+    height: 50vh;
+    border-collapse: collapse;
+    justify-content: center;
+
+}
+.div{
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 200px;
+}
+tr {
+    border-bottom: 1px solid #e68b8b;
+  }
+    th, td {
+        padding: 8px;
+        border: 1px solid #f17f7f;
+    }
+    th {
+        background-color: #f74040;
+    }
+    tr:hover {
+        background-color: #82d6eb;
+    }
+@media (max-width: 600px) {
+    table {
+        width: 50%;
+    }
+}
